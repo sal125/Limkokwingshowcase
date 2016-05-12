@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Name:"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:id="@+id/name"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textColor="#ffffff"
+                android:background="#c2c2c2"
+                android:text="Name"
+                android:ems="10"
+                android:id="@+id/entername"
+                android:layout_column="6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Email:"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:id="@+id/studentemail"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="#ffffff"
+                android:background="#c2c2c2"
+                android:text="email"
+                android:ems="10"
+                android:id="@+id/enterid"
+                android:layout_column="6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Gender:"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:id="@+id/gender"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:entries="@array/gender_list"
+                android:background="#c2c2c2"
+                android:id="@+id/genderr"
+                android:layout_column="6"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Type: "
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:id="@+id/typeenqs"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:entries="@array/enquiring_list"
+                android:id="@+id/typesp"
+                android:background="#c2c2c2"
+                android:layout_column="6"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Comment: "
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:id="@+id/Comment"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textColor="#ffffff"
+                android:background="#c2c2c2"
+                android:text="Name\n\n\n"
+                android:ems="10"
+                android:id="@+id/entercoment"
+                android:layout_column="6" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:text="\n\n"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#ffffff"
+            android:id="@+id/spaaca"
+            />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Submit"
+                android:textColor="#ffffff"
+                android:background="#3370d8"
+
+                android:id="@+id/submitform"
+                android:layout_column="6" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</RelativeLayout>
